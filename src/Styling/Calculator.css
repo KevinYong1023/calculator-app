@@ -1,0 +1,36 @@
+
+.Calculator{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+.CalculatorContainer{
+    margin-top: 50px;
+    border:10px solid black;
+
+}
+.CalculatorValueBox{
+    min-height: 5vh;
+    color:red;
+    font-size: 50px;
+    text-align: right;
+}
+
+.CalculatorButtonsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.CalculatorButtonsContainer > button{
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border:1px solid white;
+  flex-direction:row;
+  height: 10ch;
+  width: 10vh;
+  flex: 30%;
+}
+.CalculatorButtonsContainer > button >span{
+  font-size: 40px;
+}
